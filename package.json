@@ -1,6 +1,6 @@
 {
   "name": "mathjax-node",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "API's for calling MathJax from node.js",
   "keywords": [
     "MathJax",
@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "is-fullwidth-code-point": "^2.0.0",
-    "jsdom": "^11.0.0",
+    "jsdom": "^22.1.0",
     "lodash": "^4.17.20",
-    "mathjax": "^2.7.2"
+    "mathjax": "^3.2.2"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -36,6 +36,6 @@
   },
   "main": "./lib/main.js",
   "devDependencies": {
-    "tape": "^4.0.3"
+    "tape": "^5.7.2"
   }
 }
